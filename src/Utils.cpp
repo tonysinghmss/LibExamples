@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <cctype>// isalnum
+#include <algorithm>
 #include "Utils.h"
   bool not_url_char(char c){
     // characters that appear in a url in addition to alphanumeric

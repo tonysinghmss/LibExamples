@@ -3,6 +3,8 @@
 #include <vector>
 #include <sstream>//for stringstream
 #include <fstream>
+#include "Utils.h"
+using namespace std;
 int main(int argc, char* argv[]){
     //Check if the argument count is less than 2.
     //If not show an error.
